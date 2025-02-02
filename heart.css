@@ -3,15 +3,6 @@
     src: url('Apricot-BF650c4a6357ce1.otf') format('truetype');
   }
 
-
-html{
-    width: 1000px; 
-    height: 600px; 
-    margin: 0;
-    padding: 0;
-    overflow: hidden; 
-    position: relative;
-}
 body {
     margin: 0;
     padding: 0;
@@ -23,11 +14,12 @@ body {
     background-position: center; 
     background-attachment: fixed; 
 
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%; /* Ensures the body takes up the entire viewport */
+    width: 100%;  /* Ensures the body takes up the entire viewport */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrolling and resizing */
+    position: relative;
   }
 
   img{
