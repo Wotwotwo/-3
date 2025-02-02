@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'Apricot';
+    src: url('Apricot-BF650c4a6357ce1.otf') format('truetype');
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw; 
+    background-image: url('paperbg1.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+  }
+
+  img{
+    user-select: none;  
+    -webkit-user-drag: none; 
+    pointer-events: none; 
+  }
+
+
+#paper1{
+
+
+    position: absolute; 
+    top: 360px;       
+    left: 560px;       
+    width: 800px;
+    height: 150px;
+    overflow: hidden; 
+    transform: rotate(-5deg);
+    box-shadow: -10px 12px 20px 2px rgba(0, 0, 0, 0.2);
+    z-index: 6;
+
+    background-image: url('paper1.png');
+
+}
+
+.paperbg {
+
+    position: absolute;  
+    width: 100%;  
+    height: 100%;
+    object-fit: cover; 
+  }
+
+
+  p {
+    font-family: 'Apricot', sans-serif;
+    position: absolute;
+    user-select: none; 
+    color: rgb(0, 0, 0);
+
+  }
+#paper1p{
+    top: -45px;
+    left: 130px;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 2; 
+    font-size: 60px;
+}
+
+
+
+#paper2{
+
+    position: absolute;
+    top: 250px;          
+    left: 550px;        
+    width: 800px;
+    height: 400px;
+    overflow: hidden; 
+    transform: rotate(5deg);
+    box-shadow: -10px 12px 20px 2px rgba(0, 0, 0, 0.2);
+    z-index: 4;
+
+    background-image: url('paper1.png');
+
+}
+
+#paper2p{
+    padding-left: 10px;
+    z-index: 2; 
+    font-size: 40px;
+}
+
+#paper3{
+    position: absolute;
+    top: 250px;         
+    left: 550px;        
+    width: 800px;
+    height: 400px;
+    overflow: hidden; 
+    transform: rotate(-10deg);
+    box-shadow: -10px 12px 20px 2px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+
+    background-image: url('paper1.png');
+
+}
+
+#paper3p{
+
+    top: 25px;
+    left: 50px;
+    z-index: 2;
+    font-size: 60px;
+
+}
+
+.heart3p{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform: rotate(30deg);
+    top: 200px;
+    left: 550px; 
+    z-index: 2; 
+    pointer-events: none; 
+    
+}
+
+#paper4{
+    position: absolute; 
+    top: 250px;      
+    left: 600px;        
+    width: 330px;
+    height: 430px;
+    overflow: hidden; 
+    transform: rotate(-5deg);
+    box-shadow: -10px 12px 20px 2px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+
+    background-image: url('paper1.png');
+
+}
+
+.img3p {
+    width: 310px;
+    height: auto;
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    z-index: 2; 
+    pointer-events: none; 
+}
+
+#paper4p{
+
+
+    top: 320px;
+    left: 13px;
+    z-index: 2; 
+    font-size: 25px;
+
+}
+
+#paper5{
+    position: absolute; 
+    top: 287px;        
+    left: 970px;        
+    width: 330px;
+    height: 335px;
+    overflow: hidden; 
+    transform: rotate(10deg);
+    box-shadow: -10px 12px 20px 2px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+    background-image: url('paper1.png');
+
+}
+
+#paper6{
+    position: absolute; 
+    top: 247px;          
+    left: 970px;        
+    width: 330px;
+    height: 355px;
+    overflow: hidden; 
+    transform: rotate(-10deg);
+    box-shadow: -10px 12px 20px 2px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+
+    background-image: url('paper1.png');
+
+}
+
+#paper6p{
+
+    top: 278px;
+    left: 13px;
+    z-index: 2;
+    font-size: 30px;
+
+}
+
+#paper7{
+    position: absolute; 
+    top: 257px;        
+    left: 770px;       
+    width: 330px;
+    height: 355px;
+    overflow: hidden; 
+    transform: rotate(7deg);
+    box-shadow: -10px 12px 20px 2px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+
+    background-image: url('paper1.png');
+
+}
+
+
+#paper8{
+
+
+    position: absolute; 
+    top: 360px;       
+    left: 560px;        
+    width: 800px;
+    height: 150px;
+    overflow: hidden; 
+    transform: rotate(-5deg);
+    box-shadow: -10px 12px 20px 2px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+
+    background-image: url('paper1.png');
+
+}
+
+#paper8p{
+    top: -45px;
+    left: 240px;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 2; 
+    font-size: 60px;
+}
